@@ -1,0 +1,28 @@
+@use "./components/first__section";
+@use "./components/header";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./components/second_section";
+@import "./components/footer.scss";
+@import "./components/third_section";
+@import "./components/seccion4";
+@import "./components/cards-seccion";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
